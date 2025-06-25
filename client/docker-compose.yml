@@ -3,6 +3,7 @@ service:
   client:
     build:
       context: ./
+      dockerfile: Dockerfile
     container_name: client
     ports:
       "3000:3000"
